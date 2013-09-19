@@ -15,3 +15,4 @@ test.check(
    0    =>  0,
    nil  =>  nil,
 )
+exit test.passed?

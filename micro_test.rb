@@ -13,6 +13,10 @@ class MicroTest
     puts_totals
   end
 
+  def passed?
+    @fail_count == 0
+  end
+
 private
 
   def check_result(input, expected)
